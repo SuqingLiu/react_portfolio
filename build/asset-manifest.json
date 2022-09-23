@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9bb6340c.css",
+    "main.js": "/static/js/main.2cba689a.js",
+    "static/media/heroImage.png": "/static/media/heroImage.d62ea88a4ac7256bdcdf.png",
+    "static/media/yoloBike.jpg": "/static/media/yoloBike.2c9bf664670bba76aac4.jpg",
+    "static/media/c.png": "/static/media/c.5185ce2f4c945505ee4f.png",
+    "static/media/asios.jpg": "/static/media/asios.7e233842494746034bc0.jpg",
+    "static/media/twitterBot.jpg": "/static/media/twitterBot.f5b21d913fe7fae50f19.jpg",
+    "static/media/blockchain.jpg": "/static/media/blockchain.bc09c5edc5a99bc358a6.jpg",
+    "static/media/java.png": "/static/media/java.672b23b5b599fa97d910.png",
+    "static/media/bash.jpg": "/static/media/bash.d54b410692d62943d946.jpg",
+    "static/media/budgetApp.jpg": "/static/media/budgetApp.1f7dbf5feef2bb50b197.jpg",
+    "static/media/sql.png": "/static/media/sql.e5c12a7acc0de1691a86.png",
+    "static/media/react.png": "/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/python.png": "/static/media/python.b59a6b78f3c506f7d647.png",
+    "static/media/tensorFlow.png": "/static/media/tensorFlow.229b06b295a24cfb033a.png",
+    "static/media/github.png": "/static/media/github.3b9e32903aa89111875d.png",
+    "static/media/aws.png": "/static/media/aws.e6efac67b91628f72a92.png",
+    "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "index.html": "/index.html",
+    "main.9bb6340c.css.map": "/static/css/main.9bb6340c.css.map",
+    "main.2cba689a.js.map": "/static/js/main.2cba689a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9bb6340c.css",
+    "static/js/main.2cba689a.js"
+  ]
+}
