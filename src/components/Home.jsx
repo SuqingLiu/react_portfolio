@@ -2,6 +2,7 @@ import React from "react";
 import HeroImage from "../assets/heroImage.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
+import Marquee from 'react-fast-marquee';
 
 const Home = () => {
   return (
@@ -9,13 +10,21 @@ const Home = () => {
       name="home"
       className="h-screen w-full bg-gradient-to-b from-white via-cyan-600 to-white"
     >
-      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
-        <div className="flex flex-col justify-center h-full">
-          <h2 className="text-4xl sm:text-7xl mt-10 font-bold text-white">
-            I'm a Computer Science Specialist Student at University of Toronto
-          </h2>
+      <div className="max-w-screen-xl mx-auto flex flex-col items-center justify-center h-full md:flex-row">
+        <div className="flex flex-col justify-center h-full ml-10">
+        <h2 className="text-3xl sm:text-1xl mt-10 font-bold text-white">
+          <Marquee speed={85} direction="left">
+            Full Stack Development | DevOps | Cloud Computing |&nbsp;
+          </Marquee>
+          <Marquee speed={75} direction="left">
+            Blockchain | Smart Contract |&nbsp;
+          </Marquee>
+          <Marquee speed={65} direction="left">
+            Data Science | Machine Learning |&nbsp;
+          </Marquee>
+        </h2>
           <p className="text-yellow-500 py-4 max-w-md">
-          Focuses: Data Science and Analysis / Machine Learning and Deep Learning / Software and Backend Development / Blockchain and Web3
+            Computer Science Specialist Undergrad from University of Toronto
           </p>
           <div>
             <Link
@@ -36,7 +45,7 @@ const Home = () => {
           <img
             src={HeroImage}
             alt="my profile"
-            className="rounded-2xl mx-auto w-2/3 md:w-full"
+            className="rounded-2xl mx-auto w-1/2 md:w-1/2 transform hover:scale-105 duration-300"
           />
         </div>
       </div>
