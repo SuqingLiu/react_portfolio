@@ -29,16 +29,16 @@ const NavBar = () => {
   ];
 
   return (
-    <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-gradient-to-r from-blue-500 via-cyan-500 to-blue-500 fixed rounded-b-lg z-50">
+    <div className="flex justify-between items-center w-full h-16 px-4 text-white bg-gradient-to-r from-blue-500 via-cyan-500 to-blue-500 fixed rounded-b-lg z-50">
       <div>
-        <h1 className="text-3xl font-signature ml-2">Suqing Liu</h1>
+        <h1 className="text-3xl ml-2">SUQING LIU</h1>
       </div>
 
       <ul className="hidden md:flex">
         {links.map(({ id, link }) => (
           <li
             key={id}
-            className="px-4 cursor-pointer capitalize font-large text-white hover:scale-105 duration-200"
+            className=" animate-pulse px-4 cursor-pointer capitalize font-large text-white hover:scale-105 duration-200"
           >
             <Link to={link} smooth duration={500}>
               {link}

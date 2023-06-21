@@ -1,5 +1,5 @@
 import React from "react";
-import HeroImage from "../assets/heroImage.png";
+import HeroImage from "../assets/heroImage.jpg";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 import Marquee from 'react-fast-marquee';
@@ -8,11 +8,14 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="h-screen w-full bg-gradient-to-b from-white via-cyan-600 to-white"
+      className="h-screen w-full bg-gradient-to-b from-cyan-600 to-white"
     >
       <div className="max-w-screen-xl mx-auto flex flex-col items-center justify-center h-full md:flex-row">
         <div className="flex flex-col justify-center h-full ml-10">
-        <h2 className="text-3xl sm:text-1xl mt-10 font-bold text-white">
+        <p className="text-black-500 py-4 max-w-md mt-10">
+            FAMILIAR WITH:
+          </p>
+        <h2 className="text-3xl sm:text-1xl font-bold text-white">
           <Marquee speed={85} direction="left">
             Full Stack Development | DevOps | Cloud Computing |&nbsp;
           </Marquee>
@@ -23,7 +26,7 @@ const Home = () => {
             Data Science | Machine Learning |&nbsp;
           </Marquee>
         </h2>
-          <p className="text-yellow-500 py-4 max-w-md">
+          <p className="text-black-500 py-4 max-w-md">
             Computer Science Specialist Undergrad from University of Toronto
           </p>
           <div>
